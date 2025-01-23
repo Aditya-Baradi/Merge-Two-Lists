@@ -7,8 +7,7 @@
  *     ListNode(int val) { this.val = val; }
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
- First check list one and compare to list two then sort them properly using if statements 
- and then check the first one off the second one and so on into a dummy list and then return list
+Time complextiy is O(N) and space complexity is O(1)
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
